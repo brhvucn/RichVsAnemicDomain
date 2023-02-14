@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Rich.Example.Application
 {
-    internal class IRepository
+    public interface IRepository
     {
     }
 }
