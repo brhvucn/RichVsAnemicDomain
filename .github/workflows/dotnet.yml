@@ -21,8 +21,8 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
-      run: dotnet restore ./RichVsAnemicDomain/RichVsAnemicSolution
+      run: dotnet restore ./RichVsAnemicSolution
     - name: Build
-      run: dotnet build --no-restore ./RichVsAnemicDomain/RichVsAnemicSolution
+      run: dotnet build --no-restore ./RichVsAnemicSolution
     - name: Test
-      run: dotnet test --no-build --verbosity normal ./RichVsAnemicDomain/RichVsAnemicSolution
+      run: dotnet test --no-build --verbosity normal ./RichVsAnemicSolution
